@@ -1,0 +1,13 @@
+coredns
+
+{"log":".:53\n","stream":"stdout","time":"2020-07-23T12:24:41.94215739Z"}
+{"log":"[INFO] plugin/reload: Running configuration MD5 = 4e235fcc3696966e76816bcd9034ebc7\n","stream":"stdout","time":"2020-07-23T13:23:45.947997339Z"}
+{"log":"CoreDNS-1.6.7\n","stream":"stdout","time":"2020-07-23T13:23:45.948275538Z"}
+{"log":"linux/amd64, go1.13.6, da7f65b\n","stream":"stdout","time":"2020-07-23T13:23:45.94846492Z"}
+
+
+Parsed Log
+2020-07-23T12:24:41+10:00       kube-system     {"log":".:53\n","stream":"stdout","data7":{"log":".:53\n","stream":"stdout","tailed_path":"/var/log/td-agent/logsshah/kube-system_coredns-66bff467f8-c68dx_c0898e66-456e-4fcd-b17f-1f753e33c04d/coredns/0.log"},"filename":"kube-coredns","host":"jumpsie","datatype7":"kube-system","time":"1595471081","time7":1595471081}
+2020-07-23T13:23:45+10:00       kube-system     {"log":"[INFO] plugin/reload: Running configuration MD5 = 4e235fcc3696966e76816bcd9034ebc7\n","stream":"stdout","data7":{"log":"[INFO] plugin/reload: Running configuration MD5 = 4e235fcc3696966e76816bcd9034ebc7\n","stream":"stdout","tailed_path":"/var/log/td-agent/logsshah/kube-system_coredns-66bff467f8-c68dx_c0898e66-456e-4fcd-b17f-1f753e33c04d/coredns/0.log"},"filename":"kube-coredns","host":"jumpsie","datatype7":"kube-system","time":"1595474625","time7":1595474625}
+2020-07-23T13:23:45+10:00       kube-system     {"log":"CoreDNS-1.6.7\n","stream":"stdout","data7":{"log":"CoreDNS-1.6.7\n","stream":"stdout","tailed_path":"/var/log/td-agent/logsshah/kube-system_coredns-66bff467f8-c68dx_c0898e66-456e-4fcd-b17f-1f753e33c04d/coredns/0.log"},"filename":"kube-coredns","host":"jumpsie","datatype7":"kube-system","time":"1595474625","time7":1595474625}
+2020-07-23T13:23:45+10:00       kube-system     {"log":"linux/amd64, go1.13.6, da7f65b\n","stream":"stdout","data7":{"log":"linux/amd64, go1.13.6, da7f65b\n","stream":"stdout","tailed_path":"/var/log/td-agent/logsshah/kube-system_coredns-66bff467f8-c68dx_c0898e66-456e-4fcd-b17f-1f753e33c04d/coredns/0.log"},"filename":"kube-coredns","host":"jumpsie","datatype7":"kube-system","time":"1595474625","time7":1595474625}

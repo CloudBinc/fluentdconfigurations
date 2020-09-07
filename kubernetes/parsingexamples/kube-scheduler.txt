@@ -1,0 +1,12 @@
+kube-scheduler
+
+
+{"log":"I0723 13:17:40.869128       1 registry.go:150] Registering EvenPodsSpread predicate and priority function\n","stream":"stderr","time":"2020-07-23T13:17:40.869925138Z"}
+{"log":"I0723 13:17:40.869212       1 registry.go:150] Registering EvenPodsSpread predicate and priority function\n","stream":"stderr","time":"2020-07-23T13:17:40.869993572Z"}
+{"log":"I0723 13:17:45.319183       1 serving.go:313] Generated self-signed cert in-memory\n","stream":"stderr","time":"2020-07-23T13:17:45.31945377Z"}
+
+
+Parsed Log
+2020-07-23T13:17:40+10:00       kube-system     {"log":"I0723 13:17:40.869128       1 registry.go:150] Registering EvenPodsSpread predicate and priority function\n","stream":"stderr","data7":{"log":"I0723 13:17:40.869128       1 registry.go:150] Registering EvenPodsSpread predicate and priority function\n","stream":"stderr","tailed_path":"/var/log/td-agent/logsshah/kube-system_kube-scheduler-kubemaster01_3dd66788a2c7782d910d05ea37b91678/kube-scheduler/0.log"},"filename":"kube-scheduler","host":"jumpsie","datatype7":"kube-system","time":"1595474260","time7":1595474260}
+2020-07-23T13:17:40+10:00       kube-system     {"log":"I0723 13:17:40.869212       1 registry.go:150] Registering EvenPodsSpread predicate and priority function\n","stream":"stderr","data7":{"log":"I0723 13:17:40.869212       1 registry.go:150] Registering EvenPodsSpread predicate and priority function\n","stream":"stderr","tailed_path":"/var/log/td-agent/logsshah/kube-system_kube-scheduler-kubemaster01_3dd66788a2c7782d910d05ea37b91678/kube-scheduler/0.log"},"filename":"kube-scheduler","host":"jumpsie","datatype7":"kube-system","time":"1595474260","time7":1595474260}
+2020-07-23T13:17:45+10:00       kube-system     {"log":"I0723 13:17:45.319183       1 serving.go:313] Generated self-signed cert in-memory\n","stream":"stderr","data7":{"log":"I0723 13:17:45.319183       1 serving.go:313] Generated self-signed cert in-memory\n","stream":"stderr","tailed_path":"/var/log/td-agent/logsshah/kube-system_kube-scheduler-kubemaster01_3dd66788a2c7782d910d05ea37b91678/kube-scheduler/0.log"},"filename":"kube-scheduler","host":"jumpsie","datatype7":"kube-system","time":"1595474265","time7":1595474265}

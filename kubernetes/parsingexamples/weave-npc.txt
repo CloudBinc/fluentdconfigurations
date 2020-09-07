@@ -1,0 +1,13 @@
+weave-npc
+
+{"log":"INFO: 2020/07/23 13:23:37.609057 Starting Weaveworks NPC 2.6.5; node name \"kubemaster01\"\n","stream":"stderr","time":"2020-07-23T13:23:37.609340547Z"}
+{"log":"INFO: 2020/07/23 13:23:37.609597 Serving /metrics on :6781\n","stream":"stderr","time":"2020-07-23T13:23:37.609776128Z"}
+{"log":"Thu Jul 23 13:23:37 2020 \u003c5\u003e ulogd.c:408 registering plugin `NFLOG'\n","stream":"stdout","time":"2020-07-23T13:23:37.612009903Z"}
+{"log":"Thu Jul 23 13:23:37 2020 \u003c5\u003e ulogd.c:408 registering plugin `BASE'\n","stream":"stdout","time":"2020-07-23T13:23:37.612042607Z"}
+
+Parsed Log
+
+2020-07-23T13:23:37+10:00       kube-system     {"log":"INFO: 2020/07/23 13:23:37.609057 Starting Weaveworks NPC 2.6.5; node name \"kubemaster01\"\n","stream":"stderr","data7":{"log":"INFO: 2020/07/23 13:23:37.609057 Starting Weaveworks NPC 2.6.5; node name \"kubemaster01\"\n","stream":"stderr","tailed_path":"/var/log/td-agent/logsshah/kube-system_weave-net-jtf88_bdb7c9b9-de66-4bcd-8d54-2f3121a70074/weave-npc/0.log"},"filename":"weave-npc","host":"jumpsie","datatype7":"kube-system","time":"1595474617","time7":1595474617}
+2020-07-23T13:23:37+10:00       kube-system     {"log":"INFO: 2020/07/23 13:23:37.609597 Serving /metrics on :6781\n","stream":"stderr","data7":{"log":"INFO: 2020/07/23 13:23:37.609597 Serving /metrics on :6781\n","stream":"stderr","tailed_path":"/var/log/td-agent/logsshah/kube-system_weave-net-jtf88_bdb7c9b9-de66-4bcd-8d54-2f3121a70074/weave-npc/0.log"},"filename":"weave-npc","host":"jumpsie","datatype7":"kube-system","time":"1595474617","time7":1595474617}
+2020-07-23T13:23:37+10:00       kube-system     {"log":"Thu Jul 23 13:23:37 2020 <5> ulogd.c:408 registering plugin `NFLOG'\n","stream":"stdout","data7":{"log":"Thu Jul 23 13:23:37 2020 <5> ulogd.c:408 registering plugin `NFLOG'\n","stream":"stdout","tailed_path":"/var/log/td-agent/logsshah/kube-system_weave-net-jtf88_bdb7c9b9-de66-4bcd-8d54-2f3121a70074/weave-npc/0.log"},"filename":"weave-npc","host":"jumpsie","datatype7":"kube-system","time":"1595474617","time7":1595474617}
+2020-07-23T13:23:37+10:00       kube-system     {"log":"Thu Jul 23 13:23:37 2020 <5> ulogd.c:408 registering plugin `BASE'\n","stream":"stdout","data7":{"log":"Thu Jul 23 13:23:37 2020 <5> ulogd.c:408 registering plugin `BASE'\n","stream":"stdout","tailed_path":"/var/log/td-agent/logsshah/kube-system_weave-net-jtf88_bdb7c9b9-de66-4bcd-8d54-2f3121a70074/weave-npc/0.log"},"filename":"weave-npc","host":"jumpsie","datatype7":"kube-system","time":"1595474617","time7":1595474617}
